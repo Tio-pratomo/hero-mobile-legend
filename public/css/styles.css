@@ -1,0 +1,59 @@
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+p {
+    font-weight: 400;
+}
+
+.modal-body img {
+    height: 200px;
+}
+
+.box-banner {
+    position: relative;
+    height: 45vmax;
+    overflow: hidden;
+    transform: skewY(6deg) translateY(-100px);
+    -webkit-transform: skewY(6deg) translateY(-100px);
+    -moz-transform: skewY(6deg) translateY(-100px);
+    -ms-transform: skewY(6deg) translateY(-100px);
+    -o-transform: skewY(6deg) translateY(-100px);
+    margin-bottom: 10%;
+}
+
+.banner {
+    transform-origin: top right;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(../images/banner/banner_ml.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: 100%;
+    transform: skewY(-6deg);
+    -webkit-transform: skewY(-6deg);
+    -moz-transform: skewY(-6deg);
+    -ms-transform: skewY(-6deg);
+    -o-transform: skewY(-6deg);
+}
+
+.main-title::after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: #232526;
+    margin: 30px auto 0;
+}
+
+footer {
+    background-image: linear-gradient(to right, #232526, #414345);
+    color: #f8f9fa;
+}
