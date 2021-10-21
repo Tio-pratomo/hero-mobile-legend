@@ -6,6 +6,10 @@ const getDetailHero = function (id) {
         .then((data) => data);
 };
 
+/* ------------------------------------- IMPORT AND INITIALIZE ANIMATE ON SCROLL ------------------------------------ */
+
+AOS.init();
+
 /* ----------------------------------- BEHAVIOR IF ELEMEN HAS BEEN CLICK FROM USER ---------------------------------- */
 document.addEventListener('click', async function (event) {
     // FILTER IF ELEMENT HAS CLASS = detail-hero

@@ -6,8 +6,8 @@
     <div class="row py-2 px-3">
 
         <!-- -- DATASETS CONTAIN [{hero_id: 92,hero_name: 'Uranus',hero_role: 'Tank',hero_specially: 'Regen,Poke'},{..}] --- -->
-        <% datasets.forEach(data => { %>
-        <div class="col-lg-2 col-md-3 px-2 py-3">
+        <% datasets.forEach((data,index) => { %>
+        <div class="col-lg-2 col-md-3 px-2 py-3" data-aos="fade-right" data-aos-delay="100">
             <div class="card">
 
                 <a href=" #" data-bs-toggle="modal" data-bs-target="#hero"><img class="img-fluid w-100 detail-hero"
