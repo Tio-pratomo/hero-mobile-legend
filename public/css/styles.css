@@ -26,9 +26,11 @@ p {
     margin-bottom: 10%;
 }
 
+
+
 .banner {
     transform-origin: top right;
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     right: 0;
@@ -56,4 +58,22 @@ p {
 footer {
     background-image: linear-gradient(to right, #232526, #414345);
     color: #f8f9fa;
+}
+
+@media(max-width: 767.98px) {
+    .box-banner {
+        position: relative;
+        height: 35vmax;
+        overflow: hidden;
+        transform: skewY(6deg) translateY(-50px);
+        -webkit-transform: skewY(6deg) translateY(-50px);
+        -moz-transform: skewY(6deg) translateY(-50px);
+        -ms-transform: skewY(6deg) translateY(-50px);
+        -o-transform: skewY(6deg) translateY(-50px);
+        margin-bottom: 10%;
+    }
+
+    .main-title {
+        font-size: 1.2rem;
+    }
 }
